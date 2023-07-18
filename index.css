@@ -1,0 +1,234 @@
+.wrapper{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ /* background-color: rgb(120, 154, 248); */
+ padding: 10px;
+ 
+}
+body{
+    background-image: url(./kinn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(14, 99, 71); */
+}
+.wrapper .imagewrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    /* background-color: rgb(64, 9, 214); */
+    padding: 10px;
+    
+
+}
+
+
+ 
+
+.wrapper .buttonwrapper{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+/* background-color: rgb(60, 255, 0); */
+    /* margin-top: 100px; */
+
+}
+
+.buttonwrapper button{
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(4, 68, 89);
+    /* border-color: greenyellow; */
+    border: none;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 15px;
+
+}
+ 
+.buttonwrapper button:hover{
+    background-color:rgb(41, 8, 8);
+}
+.wrapper .mvwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: chartreuse; */
+    width: 100%;
+    margin-top: 10px;
+
+
+}
+.wrapper .slidetest{
+    color: brown;
+}
+.mvwrapper .mission{
+    width: 45%;
+    background-color:rgb(41, 8, 8);
+    /* opacity: 0.5; */
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding: 3px; 
+    color: rgb(185, 187, 184);
+    font-size: 13px;
+}
+.mvwrapper .mission h1{
+    text-align: center;
+    color: rgb(65, 8, 223);
+    font-weight: bolder;
+}
+
+.wrapper .summer{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    /* justify-content: center; */
+    margin-top: 5px;
+    width: 100%;
+    display: none;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(4, 68, 89);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.summer  .summerimage{
+    width: 100%;
+    /* background-color: #046785; */
+    /* background-color: yellow; */
+    /* justify-content: space-between; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.summer .summerimage .FORM{
+    width: 30%;
+    background-color: #440101;
+    padding: 10px;
+    color: white;
+}
+.summer .summerimage .imageS{
+    width: 67.9%;
+
+    /* background-color: #a04545; */
+    /* padding: 10px; */
+    color: white;
+}
+.summerimage  .imageS img{
+     width:100%;
+     height: 300px;
+}
+
+ body  footer{
+    font-size: 20px;
+    background-color: rgb(17, 3, 3);
+    /* width: 100%; */
+ }
+ footer h3{
+    float: right;
+    text-decoration: wavy;
+   font-style: italic;
+    font-size: medium;
+    color: rgb(252, 245, 245);
+ }
+
+
+
+@media(max-width:500px){
+
+    .imagewrapper  img{
+        width: 80px;
+
+    }
+    .mvwrapper .mission{
+        width:100%;
+        margin-bottom: 19px;
+        
+        /* background-color: red; */
+
+    
+    }
+    
+    
+
+.summer .summerimage #FORM {
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #a04545;
+    padding: 20px;
+    /* margin-left: 10px; */
+     
+}
+ /* .summerimage .imageS{
+    width: 100%;
+    /* background-color: yellow; */
+    /* padding: 20px; */
+/* } */
+.summerimage #FORM img{
+    width: 100%;
+    /* background-color: yellow; */
+    /* padding: 20px; */
+} 
+footer h3{
+    float: right;
+    
+    
+    color: rgb(16, 1, 61);
+ }    
+}
+
+@media(max-width:997px){
+    .summer .summerimage .imageS{
+    width: 65.6%;
+
+    /* background-color: #a04545; */
+    /* padding: 10px; */
+    color: white;
+}
+
+}
+ 
+
+ 
+ 
+
+
+
+
